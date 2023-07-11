@@ -1,0 +1,88 @@
+.missionBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 103px 0;
+  gap: 185px;
+}
+.missionleftDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.missionrightDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ourMission {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.missionPragraph {
+  color: #262830;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+  width: 617px;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.missionleftTitle {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  width: 447px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.missionleftDiv > button {
+  width: 184px;
+  height: 50px;
+  border-radius: 25px;
+  background: #6278ff;
+  margin-top: 10px;
+  border: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 550;
+  margin: 0;
+  cursor: pointer;
+}
+.missionrightDiv > img {
+  width: 638px;
+}
+.ceoDiv {
+  position: absolute;
+  border-radius: 16px;
+  background: #fff;
+  padding: 24px 54px;
+  bottom: 85px;
+  left: -143px;
+}
+.ceoName {
+  color: #161e49;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 2px;
+}
+.ceoDesignation {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}

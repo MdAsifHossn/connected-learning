@@ -1,0 +1,138 @@
+.courseBody {
+  padding: 70px 0;
+  background: #edeef3;
+}
+.courseHeader {
+  padding-left: 210px;
+  margin-bottom: 20px;
+}
+.courselist {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.find {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  width: 380px;
+}
+.courseContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 90px;
+}
+
+.cardContainer {
+  border-radius: 32px;
+  background: #fff;
+  padding: 29px 36px 15px 36px;
+  position: relative;
+}
+.cardContainer > img {
+  width: 395px;
+}
+.ui {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+}
+.star {
+  width: 145px;
+  cursor: pointer;
+}
+.doller {
+  color: #6278ff;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+}
+.bookBtn {
+  border-radius: 25px;
+  background: #6278ff;
+  border: 0;
+  width: 143px;
+  height: 40px;
+  color: #eceef5;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.bestLogo {
+  width: 35px;
+}
+.bestLogoDiv {
+  background-color: #6278ff2e;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestSell {
+  color: #6278ff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.uiDiv,
+.bookingDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bestDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.uiDiv,
+.bestDiv {
+  padding: 20px 0px;
+}
+.viewDiv {
+  text-align: center;
+  padding-top: 35px;
+}
+.viewDiv > button {
+  width: 185px;
+  height: 50px;
+  background-color: #6278ff;
+  color: #eceef5;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.topCardCourseDiv {
+  width: 125px;
+  height: 43px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 47px;
+  right: 52px;
+}
+.topCardCourseTitle {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}

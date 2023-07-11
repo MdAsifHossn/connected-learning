@@ -1,0 +1,69 @@
+.navBody {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+.navContainer {
+  background: #edeef3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 115px;
+}
+.navLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.navBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  gap: 20px;
+}
+
+.navLogo > img {
+  width: 184px;
+  height: 48px;
+}
+.navItems {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  margin-top: 48px;
+  margin-left: 80px;
+}
+.navItems > li > a {
+  text-decoration: none;
+  color: #161e49;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btnLogin {
+  cursor: pointer;
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 25px;
+  border: 2px solid #6278ff;
+  background: #edeef3;
+  padding: 11px 35px;
+}
+.btnSignup {
+  cursor: pointer;
+  color: #eceef5;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 25px;
+  background: #6278ff;
+  padding: 12px 25px;
+}

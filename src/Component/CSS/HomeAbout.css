@@ -1,0 +1,58 @@
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 0;
+  justify-items: center;
+  margin-left: 50px;
+}
+.leftDiv > img {
+  width: 800px;
+}
+.rightDiv {
+  margin-top: 10px;
+  margin-right: 240px;
+}
+.aboutUs {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.pragraph {
+  color: #262830;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+.rightTitle {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  margin: 10px 0 25px 0;
+}
+
+.rightDev > button {
+  border-radius: 25px;
+  background: #6278ff;
+  width: 178px;
+  height: 50px;
+}
+.rightDiv > button {
+  width: 178px;
+  height: 50px;
+  border-radius: 25px;
+  background: #6278ff;
+  margin-top: 10px;
+  border: 0;
+  color: #eceef5;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 550;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.homeBody {
+  margin-top: 115px;
+  margin-bottom: 0px;
+  width: 100%;
+  position: relative;
+}
+.homeContainer {
+  width: 100%;
+  height: 837px;
+  background: url(../Picture/abouthome.png) center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.aboutHometitl {
+  color: #eceef5;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 2;
+}
+.aboutUstitl {
+  color: #6278ff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.homeContainer::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(21, 22, 24, 0.45);
+}

@@ -1,0 +1,40 @@
+.courseHomeBody {
+  margin-top: 115px;
+  margin-bottom: 0px;
+  width: 100%;
+  position: relative;
+}
+.courseHomeContainer {
+  width: 100%;
+  height: 837px;
+  background: url(../Picture/coursehome.png) center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.courseAboutHometitl {
+  color: #eceef5;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 2;
+}
+.courseAboutUstitl {
+  color: #6278ff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.courseHomeContainer::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(21, 22, 24, 0.45);
+}

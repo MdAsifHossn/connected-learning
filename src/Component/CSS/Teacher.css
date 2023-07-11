@@ -1,0 +1,140 @@
+.teacherBody {
+  background: #edeef3;
+  padding: 100px 0px;
+}
+.teacherContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.memberContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.memberTopDiv,
+.memberBottomDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.teacherHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.team {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.amazTitle,
+.popular {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  width: 600px;
+}
+.amazTitle {
+  width: 297px;
+}
+
+/* ============Card=========== */
+.memberCard,
+.teacherCard {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  color: #fff;
+  width: 342px;
+  height: 509px;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 0px 0px 70px 0px rgba(106, 106, 106, 0.1);
+}
+
+.teacherCard:nth-child(1) {
+  background: url(../Picture/lady1.png) center;
+}
+.teacherCard:nth-child(2) {
+  background: url(../Picture/lady2.png) center;
+}
+.teacherCard:nth-child(3) {
+  background: url(../Picture/lady3.png) center;
+}
+.teacherCard:nth-child(4) {
+  background: url(../Picture/lady4.png) center;
+}
+
+.memberCard:nth-child(1) {
+  background: url(../Picture/aboutteam5.png) center;
+}
+.memberCard:nth-child(2) {
+  background: url(../Picture/aboutteam6.png) center;
+}
+.memberCard:nth-child(3) {
+  background: url(../Picture/aboutteam7.png) center;
+}
+.memberCard:nth-child(4) {
+  background: url(../Picture/aboutteam8.png) center;
+}
+.memberCard > .name,
+.teacherCard > .name,
+.skill {
+  z-index: 2;
+}
+
+.teacherCard::before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 141px;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  border-radius: 0px 0px 30px 30px;
+  background: #6278ff;
+  box-shadow: 0px 0px 70px 0px rgba(106, 106, 106, 0.1);
+}
+.memberCard::before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 141px;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  border-radius: 0px 0px 30px 30px;
+  background: #6278ff;
+  box-shadow: 0px 0px 70px 0px rgba(106, 106, 106, 0.1);
+}
+.name {
+  color: #eceef5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.skill {
+  color: #e6e8f3;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0 40px 0;
+}

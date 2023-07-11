@@ -1,0 +1,76 @@
+.serviceBody {
+  padding: 70px 0;
+  background: #fff;
+}
+.serviceHeader {
+  padding-left: 210px;
+  margin-bottom: 20px;
+}
+.service {
+  color: #6278ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.top {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  width: 300px;
+}
+.serviceContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 90px;
+}
+
+.serviceCardContainer {
+  width: 345px;
+  height: 241px;
+  border-radius: 7px;
+  background: #edeef3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceTypeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+}
+.imgService {
+  width: 55px;
+}
+.serviceCardContainer3 {
+  background: #6278ff;
+
+  width: 345px;
+  height: 241px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgService3 {
+  width: 55px;
+}
+.serviceType3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+}
+.serviceType {
+  color: #161e49;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+}

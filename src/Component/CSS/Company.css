@@ -1,0 +1,116 @@
+.companyBody {
+  background: #edeef3;
+  margin: 0;
+  padding: 100px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.companyTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.companyBtm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  margin-top: -50px;
+}
+
+.companyTitle1 {
+  color: #6278ff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+.companyTitle2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  width: 294px;
+  margin: 0;
+  margin-top: 2px;
+}
+.companyImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companyBtm > img {
+  width: 878px;
+}
+
+.companyBtmLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.btmLeftTop {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 24px;
+}
+.comBtmLeft1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0;
+}
+.comBtmLeft2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 0;
+  width: 438px;
+}
+.btmLeftBtmDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.btmLeftBtmDiv > img {
+  width: 70px;
+  cursor: pointer;
+}
+.comBtmLeftBtm {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  padding-top: 55px;
+}
+.insideRightDiv {
+}
+.addressType {
+  color: #000;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.addressDescription {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 257px;
+  margin: 0;
+}
